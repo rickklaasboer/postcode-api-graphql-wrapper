@@ -77,7 +77,10 @@ export const BuildingPurposeOfUseType = new GraphQLObjectType({
         bijeenkomstfunctie: {type: GraphQLBoolean},
         woonfunctie: {type: GraphQLBoolean},
         celfunctie: {type: GraphQLBoolean},
-        overige_gebruiksfunctie: {type: GraphQLBoolean},
+        overigeGebruiksfunctie: {
+            type: GraphQLBoolean,
+            resolve: ({overige_gebruiksfunctie}) => overige_gebruiksfunctie,
+        },
         winkelfunctie: {type: GraphQLBoolean},
         sportfunctie: {type: GraphQLBoolean},
         kantoorfunctie: {type: GraphQLBoolean},
