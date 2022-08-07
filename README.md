@@ -4,7 +4,7 @@
 
 GraphQL wrapper for https://postcode-api.xyz/
 
-## Try it (locally):
+## Try it (locally)
 
 Run the below command
 
