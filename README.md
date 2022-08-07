@@ -2,6 +2,8 @@
 
 # postcode-api-graphql-wrapper
 
+GraphQL wrapper for https://postcode-api.xyz/
+
 ## Try it (locally):
 
 Run the below command
