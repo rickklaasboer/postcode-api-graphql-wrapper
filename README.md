@@ -2,8 +2,14 @@
 
 # postcode-api-graphql-wrapper
 
-Try it (locally)
+## Try it (locally):
+
+Run the below command
 
 ```
 node -r tsconfig-paths/register -r ts-node/register src/server.ts
 ```
+
+## Deploy it
+
+Don't.
