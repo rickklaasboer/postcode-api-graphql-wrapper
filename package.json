@@ -1,0 +1,27 @@
+{
+  "name": "postcode-api-graphql-wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "18.6.4",
+    "@types/node-fetch": "2",
+    "eslint": "8.21.0",
+    "prettier": "2.7.1",
+    "ts-node": "10.9.1",
+    "tsconfig-paths": "4.1.0",
+    "typescript": "4.7.4",
+    "webpack": "5.74.0"
+  },
+  "description": "",
+  "dependencies": {
+    "apollo-server": "3.10.0",
+    "graphql": "16.5.0",
+    "node-fetch": "2"
+  }
+}
